@@ -31,3 +31,8 @@
     5. Build lib4ti2
 7. Build `julia --color=yes build_tarballs.jl --verbose aarch64-apple-darwin --deploy=repo`
 8. If error, goto 6.
+9. Run test
+
+| Test      | Julia 1.6.1 | Julia 1.7.0-DEV
+| --- | ---: | ---: |
+Test Nemo |     2:11.56 | 1:48.19
