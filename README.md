@@ -20,7 +20,7 @@
     1. `]add Hecke`
     
     ### GAP
-    1. Build [Readline_jll](https://github.com/shikil/Readline_jll.jl)
+    1. ~~Build Readline_jll~~
     2. Build libjulia_jll [fail](https://github.com/JuliaPackaging/Yggdrasil/pull/2969) for M1.
 
     ### Singular
@@ -33,6 +33,8 @@
 8. If error, goto 6.
 9. Run test
 
-| Test      | Julia 1.6.1 | Julia 1.7.0-DEV
+| Test          | Julia 1.6.1 | Julia 1.7.0-DEV
 | --- | ---: | ---: |
-Test Nemo |     2:11.56 | 1:48.19
+AbstractAlgebra |  5:17.92 | 
+Hecke           | 37:14.62 | 
+Nemo            |  2:11.56 | 1:48.19
