@@ -4,7 +4,7 @@
 2. Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
 3. Install Julia 1.6
     1. Install BinaryBuilder `]add BinaryBuilder`
-4. Install Julia [master](https://github.com/JuliaLang/julia)
+4. Install [Julia 1.7.0-beta3 ARM](https://julialang-s3.julialang.org/bin/mac/aarch64/1.7/julia-1.7.0-beta3-macaarch64.dmg)
     1. `git clone https://github.com/JuliaLang/julia`
     2. `make`
 5. Copy build_tarballs.jl file from [Yggdrasil](https://github.com/JuliaPackaging/Yggdrasil)
@@ -21,10 +21,10 @@
     
     ### GAP
     1. ~~Build Readline_jll~~
-    2. Build libjulia_jll [fail](https://github.com/JuliaPackaging/Yggdrasil/pull/2969) for M1.
+    2. ~~Build libjulia_jll [fail](https://github.com/JuliaPackaging/Yggdrasil/pull/2969) for M1.~~
 
     ### Singular
-    1. Build libcxxwrap_julia_jll
+    1. ~~Build libcxxwrap_julia_jll~~
     2. Build cddlib_jll
     3. Build Singular_jll
     4. Build libsingular_julia_jll

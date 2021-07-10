@@ -92,7 +92,7 @@ products = [
 # Dependencies that must be installed before this package can be built
 dependencies = [
     Dependency("GMP_jll", v"6.2.0"),
-    Dependency(PackageSpec(name="Readline_jll", url="https://github.com/shikil/Readline_jll.jl")),
+    Dependency("Readline_jll"),
     Dependency("Zlib_jll"),
 
     # GAP tries hard to produce a binary that works in all Julia versions,
